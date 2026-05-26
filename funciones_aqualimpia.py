@@ -1,12 +1,13 @@
+
+import pandas as pd
+import numpy as np
+from scipy import stats  
+import joblib            
+import os
 # funciones_aqualimpia.py
 # Archivo externo con funciones reutilizables para el proyecto AquaLimpia S.A.
 # Incorpora NumPy, SciPy y Joblib cumpliendo las buenas prácticas de programación.
 
-import pandas as pd
-import numpy as np
-from scipy import stats  # <--- NUEVO: Para análisis estadístico avanzado
-import joblib            # <--- NUEVO: Para persistencia eficiente de objetos y datos
-import os
 
 def cargar_datos(ruta_archivo):
     """
